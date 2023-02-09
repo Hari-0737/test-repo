@@ -1,0 +1,6 @@
+---
+- name: play
+  hosts: client
+  gather_facts: true
+  roles:
+   - /root/mynms/my_collection/roles/myroles
